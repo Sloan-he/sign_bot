@@ -3,7 +3,7 @@ name: Github 360buy-sign bot
 on:
     push:
         branches:
-            - master
+            - main
     schedule:
         - cron: '5 16 * * *'
 jobs:
